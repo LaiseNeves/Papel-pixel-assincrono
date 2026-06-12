@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papel & Pixel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="pagina">
+    <section class="painel">
+      <div class="selo">Papelaria Criativa Online</div>
+
+      <h1>Papel & Pixel</h1>
+
+      <p class="descricao">
+        Faça uma compra fictícia e acompanhe o processamento assíncrono do pedido.
+      </p>
+
+      <form id="formCompra" class="formulario">
+        <div class="campo">
+          <label for="nomeCliente">Nome da cliente</label>
+          <input type="text" id="nomeCliente" placeholder="Ex: Laise" required>
+        </div>
+
+        <div class="campo">
+          <label for="item">Item escolhido</label>
+          <input type="text" id="item" placeholder="Ex: Caderno pontilhado" required>
+        </div>
+
+        <div class="campo">
+          <label for="quantidade">Quantidade</label>
+          <input type="number" id="quantidade" min="1" value="1" required>
+        </div>
+
+        <button type="submit">Enviar compra para a fila</button>
+      </form>
+
+      <section id="areaResultado" class="resultado escondido">
+        <h2>Acompanhamento da compra</h2>
+
+        <div class="linha">
+          <span>ID da compra</span>
+          <strong id="compraId">-</strong>
+        </div>
+
+        <div class="linha">
+          <span>Cliente</span>
+          <strong id="compraCliente">-</strong>
+        </div>
+
+        <div class="linha">
+          <span>Item</span>
+          <strong id="compraItem">-</strong>
+        </div>
+
+        <div class="linha">
+          <span>Quantidade</span>
+          <strong id="compraQuantidade">-</strong>
+        </div>
+
+        <div class="linha">
+          <span>Situação</span>
+          <strong id="compraSituacao" class="etiqueta">-</strong>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

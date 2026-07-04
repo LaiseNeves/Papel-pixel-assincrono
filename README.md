@@ -8,7 +8,7 @@ A proposta é demonstrar como uma aplicação pode receber uma solicitação do 
 
 ---> Demonstração
 
-Vídeo mostrando o sistema em funcionamento: https://youtu.be/yweQSEhDz3g
+-----> Vídeo mostrando o sistema em funcionamento: https://youtu.be/yweQSEhDz3g
 
 ---
 

@@ -6,7 +6,7 @@ Este projeto apresenta uma simulação de compra em uma papelaria online, utiliz
 
 A proposta é demonstrar como uma aplicação pode receber uma solicitação do usuário e encaminhar essa solicitação para processamento posterior por meio de uma fila de mensagens.
 
----> Demonstração
+---> Demonstração:
 
 -----> Vídeo mostrando o sistema em funcionamento: https://youtu.be/yweQSEhDz3g
 
